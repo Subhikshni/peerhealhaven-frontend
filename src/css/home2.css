@@ -1,0 +1,97 @@
+/* home.css */
+
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3e5f5;
+  color: #4a148c;
+}
+
+.home-container {
+  background-image: url("../images/background-image.jpg");
+  color: white;
+
+  text-align: center;
+}
+
+.home-container .content h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.home-container .content p {
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 20px;
+  background-color: #502177;
+  color: white;
+}
+
+.about-container .about-text {
+  flex: 1;
+  padding: 20px;
+}
+
+.about-container .about-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about-container .about-text p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.about-container .about-image {
+  flex: 1;
+  background-image: url("../images/about-background.png");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.footer {
+  background-color: #502177d6;
+  color: white;
+  text-align: center;
+  align-items: right;
+  padding: 20px 0;
+}
+
+.footer .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: right;
+}
+
+.footer .social-icons a {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  transition: transform 0.3s;
+}
+
+.footer .social-icons a:hover {
+  transform: scale(1.1);
+}
+
+.Github_logo {
+  background-image: url("../images/github_logo.png");
+}
+
+.Linkedin_logo {
+  background-image: url("../images/linkedin_logo.png");
+}
