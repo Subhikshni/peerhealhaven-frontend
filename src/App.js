@@ -12,7 +12,7 @@ import MoodTracker from "./components/MoodTracker.js";
 
 import Profile2 from "./components/profile2.js";
 
-axios.defaults.baseURL = "https://6c67-52-62-135-165.ngrok-free.app";
+axios.defaults.baseURL = "https://a3d0-13-54-60-40.ngrok-free.app";
 axios.defaults.headers = {
   "Content-Type": "application/json",
   "ngork-skip-browser-warning": "69420",
